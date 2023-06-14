@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/goffity/angular-template/compare/v1.0.0...v1.1.0) (2023-06-14)
+
+
+### Features
+
+* add vite to devDependencies and vite/client to tsconfig.json types ([b61f7e9](https://github.com/goffity/angular-template/commit/b61f7e96a016b4bcf3528b5bd8d87120ff4def50))
+
 ## 1.0.0 (2023-06-14)
 
 
