@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# pretty-quick --staged
+pnpm run lint
 pnpm run test --watch=false --browsers=ChromeHeadless
+
