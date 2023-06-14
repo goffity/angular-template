@@ -35,6 +35,7 @@ specifiers:
   rxjs: ~7.8.0
   tslib: ^2.3.0
   typescript: ~5.0.2
+  vite: ^4.3.9
   zone.js: ~0.13.0
 
 dependencies:
@@ -75,6 +76,7 @@ devDependencies:
   prettier: 2.8.8
   pretty-quick: 3.1.3_prettier@2.8.8
   typescript: 5.0.4
+  vite: 4.3.9_73c4fskbuhojrrc52ypyxxawry
 
 packages:
 
@@ -202,7 +204,7 @@ packages:
       tree-kill: 1.2.2
       tslib: 2.5.0
       typescript: 5.0.4
-      vite: 4.3.9_73c4fskbuhojrrc52ypyxxawry
+      vite: 4.3.9_w72cdoxg3zp7hseil4sykdg7sq
       webpack: 5.80.0
       webpack-dev-middleware: 6.0.2_webpack@5.80.0
       webpack-dev-server: 4.13.2_webpack@5.80.0
@@ -2755,7 +2757,7 @@ packages:
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
     dependencies:
-      vite: 4.3.9_73c4fskbuhojrrc52ypyxxawry
+      vite: 4.3.9_w72cdoxg3zp7hseil4sykdg7sq
     dev: true
 
   /@webassemblyjs/ast/1.11.6:
@@ -8034,6 +8036,42 @@ packages:
       less: 4.1.3
       postcss: 8.4.23
       rollup: 3.25.1
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vite/4.3.9_w72cdoxg3zp7hseil4sykdg7sq:
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 20.3.1
+      esbuild: 0.17.18
+      less: 4.1.3
+      postcss: 8.4.23
+      rollup: 3.25.1
+      sass: 1.62.1
+      terser: 5.17.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
